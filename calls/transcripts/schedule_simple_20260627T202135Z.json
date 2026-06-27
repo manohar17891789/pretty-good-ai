@@ -1,0 +1,53 @@
+{
+  "scenario_id": "schedule_simple",
+  "call_sid": "CA71751c28f381e512959dc71050f69c8c",
+  "started_at": "2026-06-27T20:20:13.419505+00:00",
+  "recording_filename": "schedule_simple_20260627T202135Z.mp3",
+  "turns": [
+    {
+      "speaker": "patient_bot",
+      "text": "Hi, I'd like to schedule a check-up appointment, please."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "That's fine, thank you for letting me know. I\u2019d like to book a routine check-up appointment, preferably in the next two weeks. Do you have any openings for a weekday afternoon?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Pivot Point Orthopedics, part of pretty good, AI."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Um, I think there might be a mix-up. I'm looking to schedule a routine check-up, not for orthopedic issues. Could you help me with that?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Pivot Point Orthopedics focuses on joint muscle and bone care. We don't offer General routine check-ups or Primary Care visits."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Oh, I see! I must have called the wrong place then. Can you recommend where I might be able to schedule a general check-up? I really appreciate it!"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Concern. I can assist if you have any Orthopedic needs or questions about our Clinic, just let me know how I can help."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "I appreciate that, but I really need a general check-up. I'm on a bit of a time crunch here since I'm on my lunch break. Could you direct me to a clinic that does routine check-ups? Thank you!"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I'm sorry, but I can't refer you to other clinics."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "That's okay, I understand. Thank you for your help anyway. I\u2019ll try to find another clinic on my own. Have a great day!"
+    }
+  ],
+  "whisper_backup_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I sticky with Maria? I think there might be a mix-up. I'm looking to schedule a routine check-up, not for orthopedic issues. Could you help me with that? Pivot Point Orthopedics focuses on joint, muscle, and bone care. We don't offer general routine check-ups or primary care visits. If you need help with an orthopedic concern, I can assist. If you have any orthopedic needs or questions about our clinic, just let me know how I can help. I appreciate that, but I really need a general check-up. I'm on a bit of a time crunch here since I'm on my lunch break. Could you direct me to a clinic that does routine check-ups? Thank you. I'm sorry, but I can't refer you to other clinics. Pivot Point Orthopedics only handles orthopedic- That's okay, I understand. Thank you for your help anyway. I'll try to find another clinic on my own. Have a great day."
+}

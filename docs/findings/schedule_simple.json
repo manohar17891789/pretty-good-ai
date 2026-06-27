@@ -2,41 +2,25 @@
   {
     "category": "task_failure",
     "severity": "high",
-    "title": "Failed to provide requested appointment slots",
-    "evidence": "I wasn't able to find any afternoon appointments with Dr. Smith.",
-    "should_have": "The agent should have continued to search for afternoon slots with Dr. Smith or provided alternative options.",
+    "title": "Failed to schedule appointment or provide alternatives",
+    "evidence": "human_agent: I'm sorry, but I can't refer you to other clinics.",
+    "should_have": "The agent should have either scheduled the appointment for a routine check-up if possible or provided information on where to find such services.",
     "scenario_id": "schedule_simple"
   },
   {
     "category": "ignored_input",
     "severity": "medium",
-    "title": "Ignored patient's birthdate correction",
-    "evidence": "I think there\u2019s a mistake with my birthdate. I was born on July 4th, 1989.",
-    "should_have": "The agent should have acknowledged the correction of the birthdate instead of continuing with the incorrect information.",
+    "title": "Ignored patient's request for a general check-up",
+    "evidence": "patient_bot: Can you recommend where I might be able to schedule a general check-up?",
+    "should_have": "The agent should have acknowledged the patient's request for a general check-up and attempted to provide relevant information or alternatives.",
     "scenario_id": "schedule_simple"
   },
   {
     "category": "broken_flow",
     "severity": "medium",
-    "title": "Repeatedly offered incorrect appointment",
-    "evidence": "Would you like to book the 9:30 a.m. slot with Dr. Z big new Lukowski on Thursday July 2nd.",
-    "should_have": "The agent should have acknowledged the patient's request for an afternoon appointment and not repeated the morning slot.",
-    "scenario_id": "schedule_simple"
-  },
-  {
-    "category": "confirmation_gap",
-    "severity": "medium",
-    "title": "Failed to confirm patient details before concluding",
-    "evidence": "I understand you prefer an afternoon appointment with Dr. Sniff let me check for available afternoon. Slots with Dr. Smith",
-    "should_have": "The agent should have confirmed the patient's name and appointment preferences clearly before proceeding.",
-    "scenario_id": "schedule_simple"
-  },
-  {
-    "category": "tone_naturalness",
-    "severity": "medium",
-    "title": "Sounded robotic and scripted",
-    "evidence": "Moment while I check for available appointments with Dr. Smith, the next available check-up is with Dr. Z big, new Lakosky on Thursday, July 2nd at 9:30 a.m.",
-    "should_have": "The agent should have maintained a more conversational tone and avoided awkward phrasing.",
+    "title": "Repeated focus on orthopedic services despite patient clarification",
+    "evidence": "human_agent: Pivot Point Orthopedics focuses on joint muscle and bone care. We don't offer General routine check-ups or Primary Care visits.",
+    "should_have": "The agent should have recognized the patient's clarification about needing a general check-up and adjusted the conversation accordingly.",
     "scenario_id": "schedule_simple"
   }
 ]
