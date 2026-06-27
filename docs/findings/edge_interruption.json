@@ -1,0 +1,26 @@
+[
+  {
+    "category": "task_failure",
+    "severity": "high",
+    "title": "Failed to book appointment",
+    "evidence": "I can't book the appointment right now but I'll connect you to our patient support team for help.",
+    "should_have": "The agent should have checked for available appointment slots and attempted to schedule the appointment as requested by the patient.",
+    "scenario_id": "edge_interruption"
+  },
+  {
+    "category": "ignored_input",
+    "severity": "high",
+    "title": "Ignored patient's urgency",
+    "evidence": "Can you please check for openings first?",
+    "should_have": "The agent should have acknowledged the patient's urgency and made an effort to find available appointment times instead of transferring the call.",
+    "scenario_id": "edge_interruption"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "medium",
+    "title": "Abrupt call transfer",
+    "evidence": "Hello, you've reached the pretty good. AI test line, goodbye.",
+    "should_have": "The agent should have maintained the conversation and addressed the patient's request before transferring or concluding the call.",
+    "scenario_id": "edge_interruption"
+  }
+]

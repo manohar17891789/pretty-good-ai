@@ -1,0 +1,45 @@
+# Call transcript - edge_wrong_info_pushback
+
+- Call SID: `CA67bee536b4f04adc719de3643237568f`
+- Started: 2026-06-27T19:32:56.670529+00:00
+- Recording: `edge_wrong_info_pushback_20260627T193446Z.mp3`
+
+## Turn-by-turn (live, from Twilio speech recognition)
+
+**Patient bot:** Hi, I'm calling about an appointment — I thought I already cancelled this one, did that not go through?
+
+**Clinic agent:** Call may be recorded for quality and training purposes.
+
+**Patient bot:** Oh, okay. That's fine. I'm just trying to figure out what happened with my appointment. I thought I had cancelled it already.
+
+**Clinic agent:** Orthopedics, part of pretty good AI. Am I speaking with Maria?
+
+**Patient bot:** Um, I’m not sure who I'm speaking to, but I just really want to check on that appointment. I believe I cancelled it last week. Did that not get processed?
+
+**Clinic agent:** Can you please provide your date of birth?
+
+**Patient bot:** Sure, it’s March 15, 1963. But I really thought that cancellation went through. Are you sure it’s still on the schedule?
+
+**Clinic agent:** I'll leave your full name along with your date of birth. To look up your information. Could you please provide your first and last name?
+
+**Patient bot:** Of course, it's Henry Olusanya. I just want to confirm that cancellation. I thought I did it last week, so I'm a bit confused.
+
+**Clinic agent:** I have your phone number as 424-496-4593 and your date of birth is March 15th 1963.
+
+**Patient bot:** Yes, that's correct. But I really thought I cancelled that appointment. Are you seeing it scheduled still?
+
+**Clinic agent:** I can't check your appointment right now, but I can connect you to our patient support team for help.
+
+**Patient bot:** Oh, um, okay. But I just want to clarify, I thought this was already sorted out. It feels a bit odd that I have to go to another team. Are you sure there’s nothing you can see?
+
+**Clinic agent:** Connecting you to a representative. Please. Wait. Hello.
+
+**Patient bot:** Hello? Hi there! I was just hoping to confirm something about my appointment. I thought I had cancelled it already.
+
+**Clinic agent:** Test line. Goodbye.
+
+**Patient bot:** Um, okay. Thanks for the help anyway. Goodbye!
+
+## Whisper backup transcript (full recording, single-stream)
+
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedic. Oh. Part of Pretty Good AI. Am I speaking with Maria? I'm not sure who I'm speaking to, but I just really want to check on that appointment. I believe I canceled it last week. Can you please provide your date of birth? Sure, it's March 15th, 1963. But I really thought that cancellation went through. Are you sure it's still on the schedule? I'll need your full name along with your date of birth to look up your information. Could you please provide your first and last name? Of course, it's Henry O. Lasagna. I just want to confirm that cancellation. I thought I did it last week, so I'm a bit confused. I have your phone number as 424-496-4593 and your date of birth as March 15th, 1963. Is that correct? Yes, that's correct. But I really thought I canceled that appointment. I can't check your appointment right now, but I can connect you to our patient support team for help. Please stay on the line. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. OK, thanks for the help anyway. Goodbye.

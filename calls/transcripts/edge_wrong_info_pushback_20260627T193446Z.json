@@ -1,0 +1,77 @@
+{
+  "scenario_id": "edge_wrong_info_pushback",
+  "call_sid": "CA67bee536b4f04adc719de3643237568f",
+  "started_at": "2026-06-27T19:32:56.670529+00:00",
+  "recording_filename": "edge_wrong_info_pushback_20260627T193446Z.mp3",
+  "turns": [
+    {
+      "speaker": "patient_bot",
+      "text": "Hi, I'm calling about an appointment \u2014 I thought I already cancelled this one, did that not go through?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Oh, okay. That's fine. I'm just trying to figure out what happened with my appointment. I thought I had cancelled it already."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Orthopedics, part of pretty good AI. Am I speaking with Maria?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Um, I\u2019m not sure who I'm speaking to, but I just really want to check on that appointment. I believe I cancelled it last week. Did that not get processed?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Can you please provide your date of birth?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Sure, it\u2019s March 15, 1963. But I really thought that cancellation went through. Are you sure it\u2019s still on the schedule?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I'll leave your full name along with your date of birth. To look up your information. Could you please provide your first and last name?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Of course, it's Henry Olusanya. I just want to confirm that cancellation. I thought I did it last week, so I'm a bit confused."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I have your phone number as 424-496-4593 and your date of birth is March 15th 1963."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Yes, that's correct. But I really thought I cancelled that appointment. Are you seeing it scheduled still?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I can't check your appointment right now, but I can connect you to our patient support team for help."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Oh, um, okay. But I just want to clarify, I thought this was already sorted out. It feels a bit odd that I have to go to another team. Are you sure there\u2019s nothing you can see?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Connecting you to a representative. Please. Wait. Hello."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Hello? Hi there! I was just hoping to confirm something about my appointment. I thought I had cancelled it already."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Test line. Goodbye."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Um, okay. Thanks for the help anyway. Goodbye!"
+    }
+  ],
+  "whisper_backup_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedic. Oh. Part of Pretty Good AI. Am I speaking with Maria? I'm not sure who I'm speaking to, but I just really want to check on that appointment. I believe I canceled it last week. Can you please provide your date of birth? Sure, it's March 15th, 1963. But I really thought that cancellation went through. Are you sure it's still on the schedule? I'll need your full name along with your date of birth to look up your information. Could you please provide your first and last name? Of course, it's Henry O. Lasagna. I just want to confirm that cancellation. I thought I did it last week, so I'm a bit confused. I have your phone number as 424-496-4593 and your date of birth as March 15th, 1963. Is that correct? Yes, that's correct. But I really thought I canceled that appointment. I can't check your appointment right now, but I can connect you to our patient support team for help. Please stay on the line. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. OK, thanks for the help anyway. Goodbye."
+}

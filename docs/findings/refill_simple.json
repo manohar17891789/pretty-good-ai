@@ -1,0 +1,34 @@
+[
+  {
+    "category": "factual_error",
+    "severity": "high",
+    "title": "Incorrect Phone Number on File",
+    "evidence": "I have your name as Linda. Brooks date of birth. September 15th, 1965 and phone number 424-496-4593, let me check your record now.",
+    "should_have": "The agent should have verified the correct phone number with the patient and acknowledged the discrepancy.",
+    "scenario_id": "refill_simple"
+  },
+  {
+    "category": "task_failure",
+    "severity": "high",
+    "title": "Failed to Complete Prescription Refill Request",
+    "evidence": "I can't proceed.",
+    "should_have": "The agent should have found a way to verify the patient's information or escalated the issue to ensure the prescription refill could be processed.",
+    "scenario_id": "refill_simple"
+  },
+  {
+    "category": "ignored_input",
+    "severity": "medium",
+    "title": "Ignored Patient's Confirmation of Phone Number",
+    "evidence": "Oh, I just gave you my phone number. It's 555-123-4567. Can you look it up with that?",
+    "should_have": "The agent should have acknowledged the patient's provided phone number and used it to look up the record.",
+    "scenario_id": "refill_simple"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "medium",
+    "title": "Repetitive Requests for Information",
+    "evidence": "Could you please get a phone number you have on file with us? Just to make sure I have the correct 1.",
+    "should_have": "The agent should have streamlined the conversation and not repeatedly asked for the same information after it was already provided.",
+    "scenario_id": "refill_simple"
+  }
+]

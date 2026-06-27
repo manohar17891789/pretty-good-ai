@@ -1,0 +1,26 @@
+[
+  {
+    "category": "ignored_input",
+    "severity": "high",
+    "title": "Repeatedly Ignored Patient's Request to Reschedule",
+    "evidence": "human_agent: Please spell out your first and last name for me,",
+    "should_have": "The agent should have acknowledged the patient's request to reschedule and proceeded to assist with finding a new appointment date.",
+    "scenario_id": "reschedule_existing"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "medium",
+    "title": "Repetitive and Confusing Requests for Spelling Name",
+    "evidence": "human_agent: Please go ahead and spell your first and last name.",
+    "should_have": "The agent should have moved on to the rescheduling process after confirming the patient's name instead of repeatedly asking for the spelling.",
+    "scenario_id": "reschedule_existing"
+  },
+  {
+    "category": "confirmation_gap",
+    "severity": "medium",
+    "title": "Failed to Confirm Appointment Details",
+    "evidence": "patient_bot: Now, can you help me find a new date for my appointment?",
+    "should_have": "The agent should have confirmed the original appointment details before proceeding to reschedule.",
+    "scenario_id": "reschedule_existing"
+  }
+]

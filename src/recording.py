@@ -1,4 +1,4 @@
-"""Download the Twilio call recording and run a Whisper backup transcription.
+﻿"""Download the Twilio call recording and run a Whisper backup transcription.
 
 We keep two transcript sources per call:
   1. The structured turn-by-turn transcript built live from Twilio's Gather
@@ -38,11 +38,14 @@ def download_recording(config: Config, client: Client, call_sid: str, dest_filen
         return None
 
     media_url = f"https://api.twilio.com{recording.uri.replace('.json', '.mp3')}"
-    resp = requests.get(
-        media_url,
-        auth=(config.twilio_account_sid, config.twilio_auth_token),
-        timeout=30,
-    )
+    auth = (config.twilio_account_sid, config.twilio_auth_token)
+
+    resp = None
+    for attempt in range(6):
+        resp = requests.get(media_url, auth=auth, timeout=30)
+        if resp.status_code != 404:
+            break
+        time.sleep(5 * (attempt + 1))
     resp.raise_for_status()
 
     RECORDINGS_DIR.mkdir(parents=True, exist_ok=True)
@@ -59,3 +62,4 @@ def transcribe_with_whisper(config: Config, audio_path: Path) -> str:
             file=f,
         )
     return result.text
+

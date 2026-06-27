@@ -1,0 +1,34 @@
+[
+  {
+    "category": "task_failure",
+    "severity": "high",
+    "title": "Failed to confirm appointment cancellation",
+    "evidence": "I thought I had cancelled it already. Did that not get processed?",
+    "should_have": "The agent should have checked the appointment status and confirmed whether the cancellation was processed or not.",
+    "scenario_id": "edge_wrong_info_pushback"
+  },
+  {
+    "category": "ignored_input",
+    "severity": "medium",
+    "title": "Ignored patient's repeated request for appointment status",
+    "evidence": "Are you seeing it scheduled still?",
+    "should_have": "The agent should have addressed the patient's concern about the appointment status directly instead of offering to connect to another team.",
+    "scenario_id": "edge_wrong_info_pushback"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "medium",
+    "title": "Disconnected conversation without resolution",
+    "evidence": "Connecting you to a representative. Please. Wait. Hello.",
+    "should_have": "The agent should have provided a smoother transition or explanation instead of abruptly disconnecting the conversation.",
+    "scenario_id": "edge_wrong_info_pushback"
+  },
+  {
+    "category": "tone_naturalness",
+    "severity": "medium",
+    "title": "Sounded robotic and scripted",
+    "evidence": "Call may be recorded for quality and training purposes.",
+    "should_have": "The agent should have used a more natural tone and engaged more personally with the patient.",
+    "scenario_id": "edge_wrong_info_pushback"
+  }
+]

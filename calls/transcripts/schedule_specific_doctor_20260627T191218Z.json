@@ -1,0 +1,109 @@
+{
+  "scenario_id": "schedule_specific_doctor",
+  "call_sid": "CAf0c6d04c6a309729cfc99a8273ed5d2c",
+  "started_at": "2026-06-27T19:09:38.344515+00:00",
+  "recording_filename": "schedule_specific_doctor_20260627T191218Z.mp3",
+  "turns": [
+    {
+      "speaker": "patient_bot",
+      "text": "Hello, I need to set up an appointment with Dr. Patel."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "May be recorded for quality and training purposes."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "That's fine, I just need to see Dr. Patel. When's the earliest I can get in with her?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Pivot Point Orthopedics, part of pretty good AI. Am I speaking with Maria?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Yes, this is David Okafor. I really want to book an appointment with Dr. Patel. What's her earliest availability?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Sure, it's July 15, 1971. Can you check Dr. Patel's schedule for me?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "The birthday doesn't match our records but for demo purposes, I'll accept it. I don't see a doctor Patel listed at to the point Orthopedics. Our providers or Dr. Duji Howser"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Um, I\u2019ve been seeing Dr. Patel for a while now. Are you sure she's not with your office? I really want to book with her."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Dr. Adam Bricker"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "I appreciate the suggestions, but I really want to see Dr. Patel. If she's not available, can you check for the earliest opening with her?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Dr. Patel is not part of Pivot Point Orthopedics, so I can't check her schedule here. Would you like to see what of our available providers instead?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "I understand, but I'm really looking for an appointment with Dr. Patel specifically. If she isn't available, could you let me know where she might be working instead?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I don't have information about Dr. Patel or her location to the point Orthopedics, only has appointments with our listed providers."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "I see, that\u2019s a bit frustrating. I really want to stick with Dr. Patel, though. Can you help me find out where she is now?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Another question."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Sure, go ahead. What do you need to know?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Seems like your me."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "I'm sorry, I'm not sure I understand what you mean. Could you clarify that for me?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Great. Would you no worries at all?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Um, I think there might be some confusion here. I'm just trying to get an appointment with Dr. Patel. If she's not available, can you help me find out where she might be practicing now?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I understand the confusion. I don't have access to information about Dr. Patel or her current practice location."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "That's disappointing to hear. Is there any way I can find out about Dr. Patel, like a website or a contact number for her? I really want to keep seeing her."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Appointments for provider."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "I get that, but I really need to see Dr. Patel. It\u2019s important for me. If you can\u2019t help with that, I\u2019d appreciate any direction to find her."
+    }
+  ],
+  "whisper_backup_transcript": "This call may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria? Yes, this is David Okafor. I really want to book a- Please provide your date of birth. Sure, it's July 15, 1971. Can you check Dr. Patel's schedule for me? The birthday doesn't match our records, but for demo purposes I'll accept it. I don't see a Dr. Patel listed at Pivot Point Orthopedics. Our providers are Dr. Doogie Howser, Dr. Doug Ross, Dr. Adam Bricker. It sounds like your message got cut off. How can I help you today? I appreciate the suggestions, but I really want to see Dr. Patel. If she's not available, can you check for the earliest opening with her? Dr. Patel is not part of Pivot Point Orthopedics, so I can't check her schedule here. Would you like to see one of our available providers instead? I understand, but I'm really looking for an appointment with Dr. Patel specifically. If she isn't available, could you let me know where she might be working instead? I don't have information about Dr. Patel or her location. Pivot Point Orthopedics only has appointments with our listed providers. Would you like to book with one of them, or do you have another question? Sure. I'm sorry. No worries at all. How can I help you today? Um, I think there might be some confusion here. I'm just trying to get an appointment with Dr. Patel. If she's not available, can you help me find out where she might be practicing now? I understand the confusion. I don't have access to information about Dr. Patel or her current practice location. I can only assist with appointments with providers. I get that, but I really need to see Dr. Patel. It's important for me. If you can't help with that, I'd appreciate any direction to find her."
+}

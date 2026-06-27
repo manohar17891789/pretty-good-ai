@@ -1,0 +1,109 @@
+{
+  "scenario_id": "refill_urgent",
+  "call_sid": "CAb9fdd9a01c3c84a8bbf381e2f0a1d94e",
+  "started_at": "2026-06-27T18:33:58.476345+00:00",
+  "recording_filename": "refill_urgent_20260627T183657Z.mp3",
+  "turns": [
+    {
+      "speaker": "patient_bot",
+      "text": "Hi, this is a bit urgent, I ran out of my medication this morning and I'm not sure what to do."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Okay, thanks for letting me know. I really need to see if there's any way to get a refill or something same-day. Is that possible?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Point Orthopedics part of pretty good AI. Am I speaking with Maria?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Um, I\u2019m not sure who I\u2019m speaking with, but I really need help with my medication refill. Can you assist me with that?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I can help with your medication refill, please provide your date of birth."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Sure, it's June 15, 1976. Can we get this sorted out today? I really need it."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Which medication do you need refilled today?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "It's for my blood pressure medication, Lisinopril. I\u2019m really hoping to get it today since I\u2019m completely out."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "How many days of lisinopril do you have left? If you are already out, just let me know."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "I'm completely out, I took my last dose this morning. Is there any way I can get a refill today?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I have that you are out of within a pearl. What is the best phone number for a call back about your refill."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Oh, I think there might be a mix-up. I meant to say I\u2019m out of Lisinopril, not anything else. My best number for a call back is 555-123-4567. Can we get this sorted out today?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "4964 593 is that correct?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Um, no, that\u2019s not my number. It\u2019s 555-123-4567. Can you check if there's a way to get my Lisinopril refilled today?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "What is the best phone number for staff to call you back about your refill?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "It\u2019s 555-123-4567. I really need to get this refill today, though. Is there any way to make that happen?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Got it. Is there anything else you'd like the staff to know about your refill request, for example, any symptoms or urgency?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Yeah, I'm out of my blood pressure medication, so it\u2019s kind of urgent. I\u2019d really appreciate it if they could help me get it sorted out today. Thank you!"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "1 moment, while I process your refill request."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Sure, thank you for your help! I really appreciate it."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Could you please provide the name of the pharmacy you want to use for your medication? If you know, the address City or any details like cross streets or nearby stores? That would help too if you have their phone or fax number, please share that as well."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Of course! I use the Rite Aid on Main Street, the address is 123 Main St, Springfield. Their phone number is 555-987-6543. I hope that helps!"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Great. Please tell me the name of the pharmacy at any details. You know, about its location such as the street City or anything nearby that helps identify it."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "It\u2019s Rite Aid, located at 123 Main St, Springfield. That's right near the corner of Main and Elm, if that helps. Is everything set for my refill now?"
+    }
+  ],
+  "whisper_backup_transcript": "This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria? I'm not sure who I'm speaking with, but I really need help with my medication refill. Can you assist me with that? I can help with your medication refill. Can you please provide your date of birth? Sure, it's June 15, 1976. Can we get this sorted out today? I really need it. Which medication do you need refilled today? It's for my blood pressure medication, lisinopril. I'm really hoping to get it today. How many days of lisinopril do you have left? If you are already out, just let me know. I'm completely out. I took my last dose this morning. Is there any way I can get a refill? I have that you are out of lisinopril. What is the best phone number for a call back about your refill? I have your number as 424-496-4593. Is that correct? No, that's not my number. It's 555- What is the best phone number for staff to call you back about your refill? It's 555-123-4567. I really need to get this refilled today. Got it. Is there anything else you'd like the staff to know about your refill request? For example, any symptoms or urgency? Yeah, I'm out of my blood pressure medication, so it's kind of urgent. I'd really appreciate it if they could help me get it sorted out today. Thank you. One moment while I process your refill request. Please stay on the line. Sure, thank you for your help. Could you please provide the name of the pharmacy you want to use for your medication? If you know the address, city, or any details like cross streets or nearby stores, that would help too. If you have their phone or fax number, please share that as well. Of course. I use the Rite Aid on Main Street. Great. Please tell me the name of the pharmacy and any details you know about its location, such as the street, city, or anything nearby that helps identify it. If you have the address or phone number, that would be helpful too. It's Rite Aid, located at 123 Main Street, Springfield. That's right near the corner of Main and Elm, if that helps. Is everything set for my refill now?"
+}

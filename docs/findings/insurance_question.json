@@ -1,0 +1,34 @@
+[
+  {
+    "category": "ignored_input",
+    "severity": "high",
+    "title": "Ignored Patient's Request for Insurance Coverage Details",
+    "evidence": "patient_bot: Can you let me know if you accept Blue Shield PPO?",
+    "should_have": "The agent should have directly answered the patient's question about accepting Blue Shield PPO instead of diverting to other questions.",
+    "scenario_id": "insurance_question"
+  },
+  {
+    "category": "task_failure",
+    "severity": "high",
+    "title": "Failed to Provide Co-Pay Information",
+    "evidence": "patient_bot: What about the co-pay for Blue Shield PPO? Can you tell me what that looks like?",
+    "should_have": "The agent should have provided information about how to obtain co-pay details or offered to connect the patient with someone who could.",
+    "scenario_id": "insurance_question"
+  },
+  {
+    "category": "confirmation_gap",
+    "severity": "medium",
+    "title": "Failed to Confirm Patient's Contact Information for Follow-Up",
+    "evidence": "human_agent: Our Clinic support team will contact you using the phone number you call from, which is 424496.",
+    "should_have": "The agent should have confirmed the patient's phone number or asked for confirmation of the contact method before concluding.",
+    "scenario_id": "insurance_question"
+  },
+  {
+    "category": "tone_naturalness",
+    "severity": "medium",
+    "title": "Unnatural Responses and Lack of Engagement",
+    "evidence": "human_agent: Insurance questions or need? Is there anything else I can help you with today?",
+    "should_have": "The agent should have responded more naturally and engaged with the patient's specific inquiries instead of using scripted phrases.",
+    "scenario_id": "insurance_question"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "scenario_id": "schedule_simple",
+  "call_sid": "CAfdcd29c081cbaa84c682b25709569b58",
+  "started_at": "2026-06-27T18:19:11.878607+00:00",
+  "recording_filename": "schedule_simple_20260627T181951Z.mp3",
+  "turns": [
+    {
+      "speaker": "patient_bot",
+      "text": "Hi, I'd like to schedule a check-up appointment, please."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "May be recorded for quality and training purposes."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "That\u2019s fine. I\u2019d like to get a routine check-up appointment, if possible."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Would you like, would you like to create a demo patient profile?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "No, I\u2019m just looking to book an appointment for my check-up. Can you help with that?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Started no problem. You can scan, the QR code at the booth to create a profile later if you change your mind."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Okay, thanks. Could we focus on scheduling my appointment instead? I\u2019d like to come in sometime in the next two weeks, preferably on a weekday afternoon."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Sorry, I didn't catch that, could you say that again?"
+    }
+  ],
+  "whisper_backup_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thank you for calling Pivot Point Orthopedics. That's fine. Would you like to create a demo patient profile? I just need your first and last name to get started. No. No problem. You can scan the QR code at the booth to create a profile later if you change your mind. Have a great day. OK, thanks. Could we focus on scheduling my"
+}

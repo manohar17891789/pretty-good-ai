@@ -1,0 +1,26 @@
+[
+  {
+    "category": "factual_error",
+    "severity": "high",
+    "title": "Incorrect Medication Reference",
+    "evidence": "human_agent: I have that you are out of within a pearl.",
+    "should_have": "The agent should have accurately acknowledged the patient's request for a refill of Lisinopril instead of referencing an unrelated term.",
+    "scenario_id": "refill_urgent"
+  },
+  {
+    "category": "ignored_input",
+    "severity": "medium",
+    "title": "Repeated Request for Phone Number",
+    "evidence": "human_agent: What is the best phone number for staff to call you back about your refill?",
+    "should_have": "The agent should have acknowledged the patient's provided phone number (555-123-4567) instead of asking for it again.",
+    "scenario_id": "refill_urgent"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "medium",
+    "title": "Repetitive Inquiry About Pharmacy Details",
+    "evidence": "human_agent: Great. Please tell me the name of the pharmacy at any details.",
+    "should_have": "The agent should have processed the previously provided pharmacy information instead of asking for it again.",
+    "scenario_id": "refill_urgent"
+  }
+]

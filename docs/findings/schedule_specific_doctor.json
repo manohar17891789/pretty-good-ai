@@ -1,0 +1,34 @@
+[
+  {
+    "category": "task_failure",
+    "severity": "high",
+    "title": "Failed to assist in finding Dr. Patel",
+    "evidence": "I don't have information about Dr. Patel or her location to the point Orthopedics, only has appointments with our listed providers.",
+    "should_have": "The agent should have offered to help find Dr. Patel's current practice location or provided resources to find that information.",
+    "scenario_id": "schedule_specific_doctor"
+  },
+  {
+    "category": "ignored_input",
+    "severity": "medium",
+    "title": "Ignored request for Dr. Patel's location",
+    "evidence": "If she's not available, could you let me know where she might be working instead?",
+    "should_have": "The agent should have acknowledged the patient's request for Dr. Patel's location and attempted to provide that information.",
+    "scenario_id": "schedule_specific_doctor"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "medium",
+    "title": "Confusing and unclear responses",
+    "evidence": "Seems like your me.",
+    "should_have": "The agent should have provided clear and coherent responses to maintain the flow of the conversation.",
+    "scenario_id": "schedule_specific_doctor"
+  },
+  {
+    "category": "tone_naturalness",
+    "severity": "medium",
+    "title": "Unnatural and robotic responses",
+    "evidence": "Great. Would you no worries at all?",
+    "should_have": "The agent should have responded in a more natural and conversational manner.",
+    "scenario_id": "schedule_specific_doctor"
+  }
+]

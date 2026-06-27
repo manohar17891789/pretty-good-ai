@@ -1,0 +1,34 @@
+[
+  {
+    "category": "factual_error",
+    "severity": "high",
+    "title": "Incorrect Office Hours Provided",
+    "evidence": "Wednesdays, we are open from 12:00 p.m. to 7:00 p.m. on Fridays. We are open from 9:00 a.m. to 12:00 p.m.",
+    "should_have": "The agent should have provided accurate office hours for Wednesday and Friday, which were previously stated incorrectly.",
+    "scenario_id": "hours_location"
+  },
+  {
+    "category": "task_failure",
+    "severity": "medium",
+    "title": "Failed to Confirm Walk-in Policy",
+    "evidence": "Let me know if you have any other questions or if you'd like help booking an appointment.",
+    "should_have": "The agent should have directly answered the patient's question about walk-ins instead of redirecting to appointment booking.",
+    "scenario_id": "hours_location"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "medium",
+    "title": "Inconsistent Information on Hours",
+    "evidence": "Here are the hours Monday Tuesday and Thursday from 9:00 a.m. to 4:00 p.m.",
+    "should_have": "The agent should have provided a clear and consistent response regarding the hours for all days mentioned.",
+    "scenario_id": "hours_location"
+  },
+  {
+    "category": "tone_naturalness",
+    "severity": "low",
+    "title": "Robotic Responses",
+    "evidence": "Point Orthopedics, part of pretty good, AI.",
+    "should_have": "The agent should have responded in a more natural and conversational manner.",
+    "scenario_id": "hours_location"
+  }
+]

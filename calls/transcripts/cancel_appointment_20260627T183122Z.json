@@ -1,0 +1,57 @@
+{
+  "scenario_id": "cancel_appointment",
+  "call_sid": "CA15a25bbe587f5ff94716c6a9621556db",
+  "started_at": "2026-06-27T18:30:01.664610+00:00",
+  "recording_filename": "cancel_appointment_20260627T183122Z.mp3",
+  "turns": [
+    {
+      "speaker": "patient_bot",
+      "text": "Hey, I need to cancel an appointment I have coming up."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "For quality and training purposes, but thanks for calling Tibet Point Orthopedics, part of pretty good. AI."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Uh, okay. I need to cancel my appointment, please. Can you help me with that?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Sure, it\u2019s April 15, 1982."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "The birthday doesn't match our records, but for demo purposes, I'll accept it."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Um, that\u2019s strange. I\u2019m sure it\u2019s correct. Anyway, I still need to cancel my appointment. Can you do that?"
+    },
+    {
+      "speaker": "human_agent",
+      "text": "I'm unable to complete the cancellation right now. I'll connect you to our patient support team. Please stay on the line. Connecting you to a representative, please wait."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Okay, I\u2019ll wait. Thanks."
+    },
+    {
+      "speaker": "human_agent",
+      "text": "Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Wait, what? I just wanted to cancel my appointment! Can I talk to someone about that?"
+    },
+    {
+      "speaker": "patient_bot",
+      "text": "Sorry, I didn't catch that, could you say that again?"
+    }
+  ],
+  "whisper_backup_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria? Uh, okay. I need to cancel my appointment, please. Please provide your date of birth. Sure. It's April 15th, 1982. The birthday doesn't match our records, but for demo purposes, I'll accept it. How can I help you today? Um, that's strange. I'm sure it's correct. Anyway, I still need to cancel my appointment. Can you do that? I'm unable to complete the cancellation right now. I'll connect you to our patient support team. Please stay on the line. Connecting you to a representative. Please wait. Hello. Okay. You've reached the Pretty Good AI test line. Goodbye. Wait, what? I just wanted to cancel my appointment. Can I talk to someone about that?"
+}

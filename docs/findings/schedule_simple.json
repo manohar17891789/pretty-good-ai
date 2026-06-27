@@ -1,0 +1,42 @@
+[
+  {
+    "category": "task_failure",
+    "severity": "high",
+    "title": "Failed to provide requested appointment slots",
+    "evidence": "I wasn't able to find any afternoon appointments with Dr. Smith.",
+    "should_have": "The agent should have continued to search for afternoon slots with Dr. Smith or provided alternative options.",
+    "scenario_id": "schedule_simple"
+  },
+  {
+    "category": "ignored_input",
+    "severity": "medium",
+    "title": "Ignored patient's birthdate correction",
+    "evidence": "I think there\u2019s a mistake with my birthdate. I was born on July 4th, 1989.",
+    "should_have": "The agent should have acknowledged the correction of the birthdate instead of continuing with the incorrect information.",
+    "scenario_id": "schedule_simple"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "medium",
+    "title": "Repeatedly offered incorrect appointment",
+    "evidence": "Would you like to book the 9:30 a.m. slot with Dr. Z big new Lukowski on Thursday July 2nd.",
+    "should_have": "The agent should have acknowledged the patient's request for an afternoon appointment and not repeated the morning slot.",
+    "scenario_id": "schedule_simple"
+  },
+  {
+    "category": "confirmation_gap",
+    "severity": "medium",
+    "title": "Failed to confirm patient details before concluding",
+    "evidence": "I understand you prefer an afternoon appointment with Dr. Sniff let me check for available afternoon. Slots with Dr. Smith",
+    "should_have": "The agent should have confirmed the patient's name and appointment preferences clearly before proceeding.",
+    "scenario_id": "schedule_simple"
+  },
+  {
+    "category": "tone_naturalness",
+    "severity": "medium",
+    "title": "Sounded robotic and scripted",
+    "evidence": "Moment while I check for available appointments with Dr. Smith, the next available check-up is with Dr. Z big, new Lakosky on Thursday, July 2nd at 9:30 a.m.",
+    "should_have": "The agent should have maintained a more conversational tone and avoided awkward phrasing.",
+    "scenario_id": "schedule_simple"
+  }
+]

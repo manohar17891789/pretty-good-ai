@@ -1,0 +1,34 @@
+[
+  {
+    "category": "task_failure",
+    "severity": "high",
+    "title": "Failed to cancel appointment",
+    "evidence": "human_agent: I'm unable to complete the cancellation right now. I'll connect you to our patient support team.",
+    "should_have": "The agent should have processed the cancellation request directly instead of transferring the patient.",
+    "scenario_id": "cancel_appointment"
+  },
+  {
+    "category": "ignored_input",
+    "severity": "medium",
+    "title": "Ignored patient's repeated request",
+    "evidence": "patient_bot: I still need to cancel my appointment. Can you do that?",
+    "should_have": "The agent should have acknowledged the patient's repeated request to cancel the appointment and taken action.",
+    "scenario_id": "cancel_appointment"
+  },
+  {
+    "category": "broken_flow",
+    "severity": "high",
+    "title": "Disconnected without resolution",
+    "evidence": "human_agent: Hello, you've reached the pretty good. AI test line, goodbye.",
+    "should_have": "The agent should have ensured the patient was connected to the appropriate support team or provided a resolution before ending the call.",
+    "scenario_id": "cancel_appointment"
+  },
+  {
+    "category": "tone_naturalness",
+    "severity": "medium",
+    "title": "Unnatural and robotic responses",
+    "evidence": "human_agent: For quality and training purposes, but thanks for calling Tibet Point Orthopedics, part of pretty good. AI.",
+    "should_have": "The agent should have used a more natural and conversational tone, avoiding scripted phrases that sound robotic.",
+    "scenario_id": "cancel_appointment"
+  }
+]
