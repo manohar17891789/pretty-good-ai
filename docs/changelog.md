@@ -40,12 +40,37 @@ Reverse-chronological log of how this was built and why, kept for
   finding, specifically to avoid generic/unhelpful "could be more polite"
   style notes.
 
+## v0.2 — Real call batch + recording-download fix
+
+- Ran the full 12-scenario batch against the real Twilio test line for
+  the first time. All 12 calls completed successfully end-to-end (live
+  transcript captured, conversation correct), but 6 of 12 raised an
+  unhandled 404 partway through `download_recording()` in
+  `src/recording.py`, which aborted `place_call()` before the transcript
+  or bug-findings write step ever ran for those scenarios — exactly
+  "Candidate bug B" anticipated in `docs/debug_walkthrough_plan.md`.
+- Root cause: `client.recordings.list(call_sid=...)` returns recording
+  metadata slightly before the actual `.mp3` is live on Twilio's CDN, so
+  the immediate `GET` on the media URL can 404 even though
+  `wait_for_recording()` just confirmed the recording exists.
+- Fix: wrapped the media `GET` itself in a retry loop (up to 6 attempts,
+  backing off `5 * attempt` seconds) that only retries on a 404 response;
+  any other failure still raises immediately via `resp.raise_for_status()`.
+  This is a smaller, more targeted fix than the plan's original two
+  options (raising `wait_for_recording`'s timeout, or switching to a
+  `RecordingStatusCallback` webhook) — it fixes the actual observed race
+  without adding webhook plumbing for a one-off download step.
+- Re-ran the 6 affected scenarios individually after the fix; all 6
+  downloaded cleanly on the first or second attempt with no further
+  404s. Re-aggregated `docs/bug_report.md` so it now reflects findings
+  from all 12 scenarios instead of the 6 that succeeded in the original
+  batch run.
+
 ## Next iteration candidates (not yet done)
 
-- After the first real batch of calls, review the Whisper vs. live
-  transcript diffs to see how often Twilio's live ASR caused the bot to
-  misunderstand the agent, and tune `speech_timeout`/retry behavior if
-  that's a frequent failure mode.
-- If barge-in feels too aggressive or too passive once real calls are in
-  hand, adjust `speech_timeout` and Gather sensitivity rather than the
-  conversation prompt.
+- Review the Whisper vs. live transcript diffs to see how often Twilio's
+  live ASR caused the bot to misunderstand the agent, and tune
+  `speech_timeout`/retry behavior if that's a frequent failure mode.
+- If barge-in feels too aggressive or too passive, adjust
+  `speech_timeout` and Gather sensitivity rather than the conversation
+  prompt.
